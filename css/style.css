@@ -63,7 +63,7 @@ section{
 
 .heading h3{
    font-size: 4.5rem;
-   color:var(--black);
+   color:var: var(--black);
 }
 
 .btn{
@@ -655,6 +655,7 @@ section{
 .footer .icons-container .icons{
    text-align: center;
    padding:3rem 2rem;
+   border-radius: 50%;
 }
 
 .footer .icons-container .icons i{
@@ -690,31 +691,34 @@ section{
    width: 6rem;
    line-height: 5.8rem;
    color:var(--white);
-   background: var(--black);
-   margin:0 .3rem;
+   background: var(--peru);
+   margin:0 2rem;
    font-size: 2.5rem;
+   border-radius: 50%;
+   transition: .3s linear;
 }  
 
 .footer .share a:hover{
-   background: var(--peru);
+   background: var(--light-black);
 }
 
 .footer .credit{
-   padding-top: 2.5rem;
+   padding-top: 2.2rem;
    margin-top: 3rem;
    border-top: var(--border);
-   font-size: 2rem;
-   color:var(--light-black);
+   font-size: 2.5rem;
+   color:var(--black);
 }
 
 .footer .credit span{
    color:var(--peru);
+   font-weight: 800;
 }
 
 
 
 
-/* media queries  */
+      /* Media Queries  */
 
 @media (max-width:1200px){
 
