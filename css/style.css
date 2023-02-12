@@ -643,7 +643,6 @@ section{
 
 .footer{
    text-align: center;
-   /* padding-bottom: 10rem; */
 }
 
 .footer .icons-container{
@@ -670,14 +669,14 @@ section{
 }
 
 .footer .icons-container .icons h3{
-   font-size: 2rem;
+   font-size: 2.5rem;
    color:var(--black);
    padding:1rem 0;
 }
 
 .footer .icons-container .icons p{
    line-height: 1.5;
-   font-size: 1.7rem;
+   font-size: 1.9rem;
    color:var(--light-black);
    text-transform: none;
 }
