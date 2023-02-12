@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
 
 :root{
-   --peru:#b72d0f;
+   --peru:#CE5757;
    --black:#333;
    --white:#fff;
    --light-black:#555;
    --light-white:#ccc;
-   --light-bg:#f5f5f5;
-   --dark-bg:rgba(0,0,0,.6);
-   --border:.1rem solid rgba(0,0,0,0.7);
-   --box-shadow:0 .5rem 1rem rgba(0,0,0,.2);
+   --light-bg:#EFEFEF;
+   --dark-bg:rgba(0,0,0,.7);
+   --border:.1rem solid rgba(0,0,0,0.8);
+   --box-shadow:0 0 2rem rgba(0,0,0,.5);
 }
 
 *{
@@ -73,9 +73,9 @@ section{
    color:var(--white);
    font-size: 2rem;
    font-weight: 500;
-   border-radius: 10px;
+   border-radius: 5px;
    cursor: pointer;
-   padding:1.5rem 5rem;
+   padding:1.5rem 6rem;
 }
 
 .btn:hover{
@@ -116,7 +116,7 @@ section{
 .header .navbar a{
    font-size: 2rem;
    margin-left: 2rem;
-   color:var(--light-black);
+   color:var(--black);
 }
 
 .header .navbar a:hover{
@@ -247,7 +247,7 @@ section{
 
 .about .content p{
    font-size: 1.7rem;
-   color:var(--light-black);
+   color:var(--black);
    padding:1rem 0;
    line-height: 2;
 }
@@ -787,7 +787,7 @@ section{
       flex-flow: column;
       text-align: center;
    }
-      .home .slide .content span{
+   .home .slide .content span{
      font-size: 5rem;
    }
 
